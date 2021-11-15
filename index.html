@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card elevation-24">
+        <div class="card__item">
+          <picture class="card__img">
+            <source
+              media="(min-width: 900px)"
+              srcset="images/illustration-woman-online-desktop.svg"
+            />
+            <img
+              src="images/illustration-woman-online-mobile.svg"
+              alt="Illustration woman online"
+            />
+          </picture>
+        </div>
+        <div class="card__faq">
+          <h1 class="card__title">FAQ</h1>
+          <section class="card__section">
+            <input type="radio" name="question" id="question-1" />
+            <label for="question-1" class="card__question">
+              How many team members can I invite?
+            </label>
+            <p class="card__answer">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </section>
+          <section class="card__section">
+            <input type="radio" name="question" id="question-2" checked />
+            <label for="question-2" class="card__question">
+              What is the maximum file upload size?
+            </label>
+            <p class="card__answer">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </section>
+          <section class="card__section">
+            <input type="radio" name="question" id="question-3" />
+            <label for="question-3" class="card__question">
+              How do I reset my password?
+            </label>
+            <p class="card__answer">
+              Click "Forgot password" from the login page or "Change password"
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </section>
+          <section class="card__section">
+            <input type="radio" name="question" id="question-4" />
+            <label for="question-4" class="card__question">
+              Can I cancel my subscription?
+            </label>
+            <p class="card__answer">
+              Yes! Send us a message and we'll process request no questions
+              asked.
+            </p>
+          </section>
+          <section class="card__section">
+            <input type="radio" name="question" id="question-5" />
+            <label for="question-5" class="card__question">
+              Do you provide additional support?
+            </label>
+            <p class="card__answer">
+              Chat and email support is available 24/7. Phone lines are open
+              durin normal business hours.
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
